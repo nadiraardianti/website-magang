@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Portal Magang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+  <main class="dashboard">
+    <h2>Halo, <span id="userName"></span> 👋</h2>
+    <p><b>NIM/NIS:</b> <span id="userNim"></span></p>
+    <div class="cards">
+      <a href="divisi.html" class="card">Informasi Divisi</a>
+      <a href="status.html" class="card">Status Kelulusan</a>
+      <a href="ketentuan.html" class="card">Ketentuan Kantor</a>
+    </div>
+    <button class="btn-outline" onclick="logoutUser()">Logout</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0077cc, #00c6ff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn, .btn-outline {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn {
+  background: #0077cc;
+  color: white;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #0077cc;
+}
+
+.form-container, .dashboard, .content {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+}
+
+.list li {
+  margin: 10px 0;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

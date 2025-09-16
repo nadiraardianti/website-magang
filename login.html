@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Portal Magang</title>
+  <link rel="stylesheet" href="login-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-image">
+      <img src="image/bandara.webp" alt="Bandara Image">
+    </div>
+    <div class="login-form">
+      <div class="form-card">
+        <h2>Log in to start your session</h2>
+        <form onsubmit="loginUser(event)">
+          <label for="loginUsername">Username</label>
+          <input type="text" id="loginUsername" placeholder="Username" required>
+          
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" placeholder="Password" required>
+          
+          <a href="#" class="forgot">Forgot Password</a>
+          <button type="submit" class="btn">Log In</button>
+
+          <div class="divider">Or</div>
+          <button type="button" class="btn-google">Login with Google</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
